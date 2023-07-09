@@ -1,0 +1,277 @@
+html {
+    padding-top: 56px;
+    background-color: whitesmoke;
+    background: url('../img/1BG.png')fixed, url('../img/2BG.png')fixed;
+    background-size: 40%, 40%;
+    background-position: -20% 34%, 131% 26%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+body,
+nav {
+    max-width: 1005px;
+    position: relative;
+    margin: 0 auto !important;
+    width: 100%;
+}
+
+#carouselExampleIndicators1 img {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+    margin: 0;
+}
+
+.index-cat {
+    background-color: blue;
+}
+
+.brdleft {
+    border-left: 6px solid dimgrey;
+    width: 100%;
+}
+
+.brdleft hr {
+    border-top-color: #c1c7c5;
+}
+
+hr {
+    border-top: 3px solid #e2cadb;
+}
+
+.card:hover {
+    z-index: 50;
+    box-shadow: 0 5px 25px black;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding-bottom: 0;
+}
+
+.tabledecat {
+    border: 1px solid rgb(189 197 197);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    padding-top: 34px;
+    box-shadow: 6px 5px 4px 0px #f5e9e9;
+    background-color: #e7e9f6;
+}
+
+.tabledecat:hover {
+    transform: scale(1.1);
+}
+
+.separation-tabledecat a {
+    margin: 0 1.5em 1.6em 1.9em;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: black;
+}
+
+
+/*------------Produit---------------*/
+
+.page-produits img {
+    max-width: 100%;
+}
+
+.page-produits {
+    margin-top: 30px;
+}
+
+.page-produits .brdr-lft-prod {
+    border-left: 3px solid rgb(95, 90, 90);
+    background-color: rgb(245 254 255);
+}
+
+.page-produits .prod-desc {
+    margin-top: 24px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 10px;
+}
+
+
+/*page de modification de profile */
+
+.modification h1 {
+    margin: 40px 0 60px 0;
+}
+
+
+/*  nav bar                   */
+
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav ul li {
+    background-color: ivory;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+nav ul.log li {
+    background-color: ivory;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+nav ul li:hover {
+    background-color: rgb(141, 136, 170);
+}
+
+nav ul li a {
+    color: black;
+}
+
+.searchbar-nav {
+    margin-left: 5px;
+    position: relative;
+}
+
+.searchbar-nav .btn {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+
+
+/* page login/signup        */
+
+.show-pass {
+    position: absolute;
+    top: 23px;
+    right: 7px;
+}
+
+.login-page .selected {
+    color: orange;
+}
+
+.login-page h1 {
+    margin: 30px auto;
+    color: #887575;
+}
+
+.login-page h1 span {
+    cursor: pointer;
+}
+
+.login-page .signup {
+    display: none;
+}
+
+.login-page,
+.modification form {
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+form input {
+    margin-bottom: 8px;
+}
+
+.input-cont {
+    position: relative;
+}
+
+.etoile {
+    position: absolute;
+    font-size: 1.3em;
+    color: #cc643c;
+    top: 3px;
+    right: 10px;
+}
+
+
+/*-------PANIER------------------*/
+
+.panier img {
+    margin-right: -350px;
+    width: 30%;
+}
+
+
+/*           footer           */
+
+footer.jumbotron {
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+@media (max-width:500px) {
+    .tabledecat {
+        border: 1px solid rgb(189 197 197);
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 1em;
+        width: 150px;
+        white-space: wrap;
+        height: 60px;
+        padding: 0;
+        background-color: #c1c2ca;
+    }
+    .col-lg-3 {
+        width: 50%;
+    }
+    .col-lg-3 .btn-success {
+        white-space: wrap;
+        width: 100%;
+    }
+    .searchbar-nav {
+        width: 87%;
+        position: relative;
+    }
+    .searchbar-nav .btn {
+        position: absolute;
+        top: -8px;
+        left: 342px;
+    }
+}
+
+img.imgpanier {
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}
+
+.panierpage {
+    color: #5d4820;
+    font-weight: bold;
+    font-size: 1.3em;
+}

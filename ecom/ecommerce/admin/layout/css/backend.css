@@ -1,0 +1,232 @@
+html {
+    background: whitesmoke;
+    background: url('../img/5549c4471c049_thumb900.jpg')fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 91%;
+}
+
+body,
+nav {
+    max-width: 1005px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: rgb(97, 94, 92);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white;
+}
+
+
+/*** la page de connexion          ***/
+
+.login {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+
+/**    Dashboard               ***/
+
+.dashtable {
+    color: white;
+    border: 1px solid rgb(189 197 197);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.dashtable span {
+    display: block;
+    font-size: 3em;
+    position: relative;
+}
+
+.dashtable i {
+    position: absolute;
+    font-size: 7em;
+    top: 14px;
+    color: #585e7938;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.tab-membres {
+    background-color: #2980b9;
+}
+
+.tab-articles {
+    background-color: #34495e;
+}
+
+.tab-attente {
+    background-color: #e74c3c;
+}
+
+.tab-commentaires {
+    background-color: #00a8ff;
+}
+
+.latest-users {
+    margin-bottom: 0;
+}
+
+.latest-users li {
+    padding: 8px;
+    overflow: hidden;
+}
+
+a .pull-right {
+    margin-left: 3px;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: rgba(204, 200, 200, 0.877);
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+
+.latest-users .btn-success {
+    margin-left: 3px;
+}
+
+.tog-info {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+
+/**               Catrégories               */
+
+.categories .cat h4 {
+    margin: 0 0 10px;
+}
+
+.categories .cat {
+    padding: 30px;
+    margin: -20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.644);
+}
+
+.categories .cat:hover .hidden-buttons {
+    right: 10px;
+}
+
+.categories .cat:hover {
+    background-color: whitesmoke;
+}
+
+.categories .cat .btn-primary {
+    margin-right: 2px;
+}
+
+.categories .cat .hidden-buttons {
+    position: absolute;
+    top: 15px;
+    right: -250px;
+    transition-duration: .5s;
+}
+
+.categories .cat:last-of-type~hr {
+    display: none;
+}
+
+
+/*          Produits                          */
+
+.affichag-produit {
+    cursor: pointer;
+}
+
+.prix-dh {
+    position: absolute;
+    top: 12px;
+    left: 170px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.etoile {
+    position: absolute;
+    top: 7px;
+    right: 22px;
+    font-size: 1.4em;
+    color: crimson;
+}
+
+
+/*                    Nav Bar                 */
+
+nav {
+    background-color: #000000;
+}
+
+.dropdown-menu {
+    min-width: 12rem;
+    background-color: rgb(161, 180, 180);
+}
+
+
+/*         members page                         */
+
+.show-pass {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+}
+
+.main-table {
+    box-shadow: 5px 3px 7px #a29090;
+}
+
+.main-table td {
+    background-color: white;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td {
+    background-color: rgb(34, 33, 33);
+    color: blanchedalmond;
+}
+
+
+/*           footer           */
+
+footer.jumbotron {
+    margin-bottom: 0;
+    background-color: black;
+    color: cornsilk;
+    border-radius: 0;
+}
